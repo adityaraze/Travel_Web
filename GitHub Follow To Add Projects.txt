@@ -1,0 +1,16 @@
+Steps To Add Projct On GitHub
+1. Open the folder jisko GitHub pe upload krna h
+2. git config --global user.name "adityaraze"
+3. git config --global user.email "adityamodanwal293@gmail.com"
+4. touch .gitignore -> create a .gitignore file
+5. git add .  -> all file goes to staging position
+6. git commit -m"Initial Commit"
+7. git status
+8. git remote add origin git@github.com:adityaraze/Trav_Website.git
+                        (SSH pe click kr kr link copy karke paste kardo)
+9. $ ssh-keygen -t rsa -b 4096 -C "adityamodanwal293@gmail.com"
+            (For creating SSH key)
+10. $ cat ~/.ssh/id_rsa.pub
+(For Generating SSH key) -> Copy kro aur GitHum me jake paste kar to setting wala kam
+11. $ git push origin master
+12. Done 
